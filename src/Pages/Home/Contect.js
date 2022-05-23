@@ -7,22 +7,22 @@ const Contect = () => {
             background: `url(${appointment})`
         }}>
 
-            <div className="px-96 mx-28 sm:px-auto sm:mx-auto">
+            <div className="hero-content">
                 {/* <div className="hero-content flex-col lg:flex-row-reverse"> */}
                 <div className='text-center'>
-                    <h3 className="text-xl text-primary">Contact Us</h3>
+                    <h3 className="text-xl font-bold text-primary">Contact Us</h3>
                     <h2 className="text-3xl text-white">Stay connected with us</h2>
-                    <div className="">
+                    <div className="card flex-shrink-0 w-full max-w-sm">
                         <div className="">
                             <div className="form-control">
                                 <label className="label">
                                 </label>
-                                <input type="text" placeholder="email" className="input input-bordered" />
+                                <input type="email" placeholder="email" className="input input-bordered" />
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                 </label>
-                                <input type="text" placeholder="password" className="input input-bordered" />
+                                <input type="text" placeholder="Subject" className="input input-bordered" />
                             </div>
                             <div className="form-control">
                                 <label className="label">
@@ -31,7 +31,7 @@ const Contect = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="form-control mt-8 px-32">
+                    <div className="form-control mt-5 pb-5 px-32">
                         <button className="btn btn-primary">Submit</button>
                     </div>
                 </div>
