@@ -7,6 +7,8 @@ import Navbar from './Pages/Shared/Navbar';
 import Appointment from './Pages/Appointment/Appointment';
 import RequireAuth from './Pages/Login/RequireAuth';
 import SingUp from './Pages/Login/SingUp';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
           <Appointment />
         </RequireAuth>} />
       </Routes>
+      <ToastContainer />
     </div>
   );
 }
